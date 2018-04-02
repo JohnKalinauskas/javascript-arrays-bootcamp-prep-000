@@ -1,4 +1,5 @@
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
+<<<<<<< HEAD
 //var candyString = "foo"
  
 function addElementToBeginningOfArray(chocolateBars, candyString){
@@ -41,4 +42,19 @@ function removeElementFromEndOfArray(chocolateBars){
   return chocolateBars.slice(0, chocolateBars.length - 1);
 }
 
+=======
+
+function addElementToBeginningOfArray (array, element) {
+  
+var  addElementToBeginningOfArray = ["array", "element",];
+ 
+addElementToBeginningOfArray.shift("foo");
+
+}
+
+var removeElementFromEndOfArray= [1, 2, 3]
+
+removeElementFromEndOfArray.slice(2)
+
+>>>>>>> 691cae5e9b5aa2e2316bf72c3621a39de12003d2
 
